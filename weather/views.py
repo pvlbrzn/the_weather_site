@@ -5,8 +5,9 @@ from rest_framework import status
 from .models import WeatherQuery
 from .serializers import WeatherQuerySerializer
 from django.shortcuts import render
+from decouple import config
 
-API_KEY = '505299ce6b11c58eda648de4ff5a0aac'
+API_KEY = config('API_KEY')
 
 
 class WeatherView(APIView):

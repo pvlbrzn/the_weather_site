@@ -1,0 +1,97 @@
+# Общие исключения
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+*.pot
+*.pid
+*.gz
+*.log.*
+
+# Переменные окружения
+.env
+.env.*
+
+# Секретные ключи и настройки
+*.secret
+*.key
+*.pem
+
+# Базы данных
+*.sqlite3
+db.sqlite3
+
+# Папки виртуальных окружений
+venv/
+ENV/
+.env/
+env/
+.venv/
+
+# Файлы IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Тесты и отладка
+.coverage
+*.cover
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.pylintrc
+*.mypy_cache/
+*.pytest_cache/
+
+# Скомпилированные файлы
+*.so
+*.dll
+*.dylib
+
+# Сборки и пакеты
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Docker
+*.env
+docker-compose.override.yml
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Django
+*.log
+staticfiles/
+media/
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Пайплайны CI/CD
+pip-log.txt
+pip-delete-this-directory.txt
